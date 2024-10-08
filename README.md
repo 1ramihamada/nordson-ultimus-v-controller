@@ -29,17 +29,17 @@ Below is a list of available commands you can use with this script:
 
 - **pressure `<value>`**: Set the dispense pressure.
   - Replace `<value>` with a float:
-    - psi: 0.0-100.0
-    - kPa: 0.0-689.5
-    - Bar: 0.000-6.895
+    - psi: 0.0 - 100.0
+    - kPa: 0.0 - 689.5
+    - Bar: 0.000 - 6.895
   - Sends the `PS  ` command with the formatted pressure value.
 
 - **vacuum `<value>`**: Set the vacuum level.
   - Replace `<value>` with a float:
-    - H2O: 0.0-18.0
-    - kPa: 0.00-4.48
-    - Hg: 0.00-1.32
-    - mmHg or Torr: 0.0-33.6
+    - H2O: 0.0 - 18.0
+    - kPa: 0.00 - 4.48
+    - Hg: 0.00 - 1.32
+    - mmHg or Torr: 0.0 - 33.6
   - Sends the `VS  ` command with the formatted vacuum value.
 
 - **toggle_mode**: Toggle between timed and steady modes.
