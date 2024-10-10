@@ -9,7 +9,7 @@ This project contains Python code to control the Nordson Ultimus V Precision Dis
 - Toggle between different modes and set time values.
 
 ## Requirements
-- Python 3.x
+- Python 3
 - `pyserial` library (install with `pip install pyserial`)
 
 ## Setup
